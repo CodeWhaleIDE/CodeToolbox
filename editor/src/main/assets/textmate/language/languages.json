@@ -1,0 +1,10 @@
+{
+  "languages": [
+    {
+      "name": "java",
+      "scopeName": "source.java",
+      "grammar": "textmate/language/java/syntaxes/java.tmLanguage.json",
+      "languageConfiguration": "textmate/language/java/language-configuration.json"
+    }
+  ]
+}
