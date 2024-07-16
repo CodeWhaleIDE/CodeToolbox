@@ -46,7 +46,7 @@ dependencies {
 
     implementation(project(":core"))
     implementation(project(":editor"))
-    implementation(project(":java"))
+    implementation(project(":language-java"))
 
     // Code Editor
     implementation(platform("io.github.Rosemoe.sora-editor:bom:0.23.2"))

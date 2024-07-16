@@ -10,6 +10,7 @@ pluginManagement {
         mavenCentral()
         gradlePluginPortal()
         maven(url = "https://jitpack.io")
+        maven("https://s01.oss.sonatype.org/content/repositories/snapshots")
     }
 }
 dependencyResolutionManagement {
@@ -18,6 +19,7 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
         maven(url = "https://jitpack.io")
+        maven("https://s01.oss.sonatype.org/content/repositories/snapshots")
     }
 }
 
@@ -25,5 +27,5 @@ rootProject.name = "CodeToolbox"
 include(":app")
 include(":core")
 include(":editor")
-include(":java")
-include(":kotlin")
+include(":language-java")
+include(":language-kotlin")

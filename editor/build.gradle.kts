@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.bluewhaleyt.codetoolbox.extension"
+    namespace = "com.bluewhaleyt.codetoolbox.editor"
 
     compileOptions {
         isCoreLibraryDesugaringEnabled = true
@@ -20,7 +20,7 @@ dependencies {
 
     implementation(project(":core"))
 
-    api(platform("io.github.Rosemoe.sora-editor:bom:0.23.2"))
+    api(platform("io.github.Rosemoe.sora-editor:bom:0.23.4-43e1706-SNAPSHOT"))
     api("io.github.Rosemoe.sora-editor:editor")
     api("io.github.Rosemoe.sora-editor:language-textmate")
 }
