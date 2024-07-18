@@ -1,0 +1,3 @@
+if (${1:field} == null) {
+    $1 = new ${2:type}();
+}

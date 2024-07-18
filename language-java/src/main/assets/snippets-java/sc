@@ -1,0 +1,5 @@
+Scanner sc = new Scanner(System.in);
+String ${1:value} = sc.next();
+
+// Close the Scanner when the input action is finished
+sc.close();

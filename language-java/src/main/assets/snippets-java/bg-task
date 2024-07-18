@@ -1,0 +1,11 @@
+ExecutorService service = Executors.newFixedThreadPool(${1:size});
+Runnable runnable = new Runnable() {
+    @Override
+    public void run() {
+
+    }
+};
+service.submit(runnable);
+
+// Shut down the service to release resources
+service.shutdown();
